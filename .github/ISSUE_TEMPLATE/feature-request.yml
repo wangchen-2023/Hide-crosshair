@@ -1,0 +1,23 @@
+name: "💡 功能建议 (Feature Request)"
+description: "提出新的功能想法 / Propose a new feature"
+title: "[Feature] <简短描述 / Short description>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        我们欢迎任何有助于改进模组的想法！
+        We welcome any ideas that help improve the mod!
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "功能描述 (Description of Feature)"
+      description: "你想添加什么功能？ (What feature would you like to add?)"
+      placeholder: "请详细说明您的想法... / Please explain your idea in detail..."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "为什么需要这个功能？ (Why is this needed?)"
+      description: "它能解决什么问题或提升什么体验？ (What problem does it solve or how does it improve the experience?)"
