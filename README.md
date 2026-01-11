@@ -24,6 +24,3 @@ If you find a vulnerability (Bug) or have new feature suggestions, please submit
 - [ ] 💡 Feature Request
 - [ ] ❓ Other
 
----
-
-**Hide-crosshair**
