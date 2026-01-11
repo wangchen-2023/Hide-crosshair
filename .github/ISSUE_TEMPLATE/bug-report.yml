@@ -1,0 +1,40 @@
+name: "🐛 漏洞报告 (Bug Report)"
+description: "向开发者提交模组漏洞"
+title: "[BUG] <简短描述你的问题>"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你反馈问题！请尽量提供详细信息。
+  - type: dropdown
+    id: loader
+    attributes:
+      label: 模组加载器 (Loader)
+      options:
+        - Fabric
+        - Forge
+        - NeoForge
+        - Quilt
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 游戏与模组版本
+      placeholder: "例如: MC 1.20.1 / Mod v1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 详细描述
+      description: 发生了什么？
+      placeholder: 请输入具体情况...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 错误日志 (Logs)
+      description: 请将日志内容粘贴在此处，或上传文件。

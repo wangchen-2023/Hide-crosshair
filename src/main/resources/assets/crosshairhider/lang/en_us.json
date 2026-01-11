@@ -1,0 +1,37 @@
+{
+  "category.crosshairhider": "Crosshair Hider",
+
+  "key.crosshairhider.toggle": "Toggle System",
+  "key.crosshairhider.toggle_block": "Toggle Block Detection",
+  "key.crosshairhider.toggle_entity": "Toggle Entity Detection",
+  "key.crosshairhider.disable_entity": "Toggle Entity Detection",
+  "key.crosshairhider.filter": "Toggle Smart Filter",
+  "key.crosshairhider.cooldown": "Toggle Cooldown Bar",
+
+  "text.crosshairhider.mode.OFF": "OFF",
+  "text.crosshairhider.mode.HOSTILE_ONLY": "Hostile Only",
+  "text.crosshairhider.mode.ALL_LIVING": "All Living",
+  "text.crosshairhider.prefix": "§7[Crosshair] ",
+  "text.crosshairhider.on": "Enabled",
+  "text.crosshairhider.off": "Disabled",
+
+  "msg.crosshairhider.enabled": "System",
+  "msg.crosshairhider.detectBlocks": "Block Detection",
+  "msg.crosshairhider.detectEntities": "Entity Detection",
+  "msg.crosshairhider.filterBlocks": "Block Filter",
+  "msg.crosshairhider.showCooldown": "Cooldown Bar",
+
+  "gui.crosshairhider.title": "§bCrosshair Hider §7Settings",
+  "gui.crosshairhider.category.core": "Core Settings",
+  "gui.crosshairhider.category.detection": "Detection Engine",
+  "gui.crosshairhider.category.advanced": "Advanced Filters",
+  "gui.crosshairhider.enabled": "Enable Mod System",
+  "gui.crosshairhider.detectEntities": "⚡ Detect Entities",
+  "gui.crosshairhider.detectBlocks": "🧱 Detect Blocks",
+  "gui.crosshairhider.detectNone": "❌ Detect Nothing (Hidden)",
+  "gui.crosshairhider.detectNone.tooltip": "Enabling this will automatically disable both Entity and Block detection.",
+  "gui.crosshairhider.mode": "Entity Detection Mode",
+  "gui.crosshairhider.filterBlocks": "Smart Block Filtering",
+  "gui.crosshairhider.filterBlocks.tooltip": "Only shows the crosshair when looking at interactable blocks (Chests, Doors, etc.)",
+  "gui.crosshairhider.showCooldown": "Show Attack Cooldown Bar"
+}

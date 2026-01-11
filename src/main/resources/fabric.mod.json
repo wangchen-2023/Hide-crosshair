@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "crosshairhider",
+	"version": "${version}",
+	"name": "Crosshair Hider",
+	"description": "简单的准心mod，可以隐藏准心，还有一些额外的小东西",
+
+	"authors": [
+		"liyue"
+	],
+	"contact": {
+		"homepage": "https://bl.liyueovo.top",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/crosshairhider/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.example.crosshairhider.CrosshairHider"],
+        "client": ["com.example.crosshairhider.CrosshairHiderClient"],
+        "modmenu": [ "com.example.crosshairhider.client.ModMenuIntegration" ]
+	},
+	"mixins": [
+      "crosshairhider.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

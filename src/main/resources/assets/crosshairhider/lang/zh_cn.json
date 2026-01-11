@@ -1,0 +1,37 @@
+{
+  "category.crosshairhider": "准星隐藏器 (Crosshair Hider)",
+
+  "key.crosshairhider.toggle": "总开关",
+  "key.crosshairhider.toggle_block": "切换方块识别",
+  "key.crosshairhider.toggle_entity": "切换生物识别",
+  "key.crosshairhider.disable_entity": "切换生物识别",
+  "key.crosshairhider.filter": "切换智能过滤",
+  "key.crosshairhider.cooldown": "切换冷却条显示",
+
+  "text.crosshairhider.mode.OFF": "关闭",
+  "text.crosshairhider.mode.HOSTILE_ONLY": "仅敌对生物",
+  "text.crosshairhider.mode.ALL_LIVING": "所有生物",
+  "text.crosshairhider.prefix": "§7[准星] ",
+  "text.crosshairhider.on": "开启",
+  "text.crosshairhider.off": "关闭",
+
+  "msg.crosshairhider.enabled": "准星系统",
+  "msg.crosshairhider.detectBlocks": "方块识别",
+  "msg.crosshairhider.detectEntities": "生物识别",
+  "msg.crosshairhider.filterBlocks": "方块过滤",
+  "msg.crosshairhider.showCooldown": "冷却指示条",
+
+  "gui.crosshairhider.title": "§bCrosshair Hider §7配置",
+  "gui.crosshairhider.category.core": "核心控制",
+  "gui.crosshairhider.category.detection": "识别引擎",
+  "gui.crosshairhider.category.advanced": "高级过滤",
+  "gui.crosshairhider.enabled": "启用准星系统",
+  "gui.crosshairhider.detectEntities": "⚡ 识别生物",
+  "gui.crosshairhider.detectBlocks": "🧱 识别方块",
+  "gui.crosshairhider.detectNone": "❌ 都不识别 (隐藏准星)",
+  "gui.crosshairhider.detectNone.tooltip": "开启此项将自动禁用生物和方块的检测逻辑",
+  "gui.crosshairhider.mode": "生物识别细分模式",
+  "gui.crosshairhider.filterBlocks": "智能方块过滤",
+  "gui.crosshairhider.filterBlocks.tooltip": "仅在准星指向箱子、门、按钮等可交互方块时显示",
+  "gui.crosshairhider.showCooldown": "显示攻击冷却条"
+}
